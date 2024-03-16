@@ -1,8 +1,17 @@
+#include <iostream>
+using namespace std;
+int getTwoValues(int, int);
+int getNextPrime(int);
 
-//********************
-// Declare Function Prototypes
-//********************
+    
+int getTwoValues (int begin, int end) {
+    do {
+    cout << "Enter two integers: " << endl;  
+    cin >> begin >> end;
+    } while (begin > end);
 
-// ******************************
-// Implement all your functions here
-// ******************************
+}
+
+int getNextPrime (int begin) {
+
+}
